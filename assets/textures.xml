@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="textures.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="1.png"	x="0"	y="732"	width="70"	height="69" frameX="-5" frameY="-3" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="2.png"	x="72"	y="732"	width="66"	height="68" frameX="-5" frameY="-9" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="3.png"	x="0"	y="666"	width="72"	height="64" frameX="-4" frameY="-8" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="4.png"	x="0"	y="879"	width="70"	height="69" frameX="-5" frameY="-5" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="5.png"	x="0"	y="592"	width="75"	height="72" frameX="-3" frameY="-2" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="6.png"	x="0"	y="514"	width="77"	height="76" frameX="-1" frameY="-2" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="7.png"	x="71"	y="950"	width="68"	height="69" frameX="-6" frameY="-6" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="8.png"	x="0"	y="803"	width="70"	height="74" frameX="-7" frameY="-2" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="9.png"	x="0"	y="950"	width="69"	height="69" frameX="-6" frameY="-5" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="btn.png"	x="0"	y="362"	width="300"	height="68" frameX="-0" frameY="-0" frameWidth="300" frameHeight="68"/>
+	<SubTexture name="cell.png"	x="0"	y="432"	width="80"	height="80" frameX="-0" frameY="-0" frameWidth="80" frameHeight="80"/>
+	<SubTexture name="logo.png"	x="0"	y="0"	width="476"	height="360" frameX="-3" frameY="-15" frameWidth="479" frameHeight="406"/>
+</TextureAtlas>
