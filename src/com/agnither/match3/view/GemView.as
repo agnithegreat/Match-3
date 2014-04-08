@@ -5,8 +5,8 @@
  * Time: 23:31
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.view {
-import com.agnither.candyRush.model.Gem;
+package com.agnither.match3.view {
+import com.agnither.match3.model.Gem;
 import com.agnither.ui.AbstractView;
 import com.agnither.utils.CommonRefs;
 

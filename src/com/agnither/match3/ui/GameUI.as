@@ -5,8 +5,8 @@
  * Time: 21:07
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.ui {
-import com.agnither.candyRush.model.Game;
+package com.agnither.match3.ui {
+import com.agnither.match3.model.Game;
 import com.agnither.ui.AbstractView;
 import com.agnither.utils.CommonRefs;
 
@@ -46,12 +46,12 @@ public class GameUI extends AbstractView {
     }
 
     override protected function initialize():void {
-        _time = new TextField(100, 80, "60", "font", BitmapFont.NATIVE_SIZE, 0xFFFFFF);
+        _time = new TextField(100, 80, "60", "money", BitmapFont.NATIVE_SIZE, 0xFFFFFF);
         _time.touchable = false;
         _time.batchable = true;
         addChild(_time);
 
-        _score = new TextField(stage.stageWidth, 80, "0", "font", BitmapFont.NATIVE_SIZE, 0xFFFFFF);
+        _score = new TextField(stage.stageWidth, 80, "0", "money", BitmapFont.NATIVE_SIZE, 0xFFFFFF);
         _score.touchable = false;
         _score.pivotX = _score.width/2;
         _score.pivotY = _score.height/2;
@@ -59,10 +59,10 @@ public class GameUI extends AbstractView {
         _score.hAlign = HAlign.CENTER;
         addChild(_score);
 
-        _btn = new Button(_refs.assets.getTexture("btn.png"), "ЕЩЕ РАЗ");
+        _btn = new Button(_refs.assets.getTexture("btn.png"), "REPLAY");
         _btn.fontColor = 0xFFFFFF;
-        _btn.fontName = "btn_ru";
-        _btn.fontSize = 24;
+        _btn.fontName = "button_text";
+        _btn.fontSize = -1;
         _btn.addEventListener(Event.TRIGGERED, handleClick);
         addChild(_btn);
         _btn.pivotX = _btn.width/2;

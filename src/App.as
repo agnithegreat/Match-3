@@ -6,13 +6,12 @@
  * To change this template use File | Settings | File Templates.
  */
 package {
-import com.agnither.candyRush.GameController;
-import com.agnither.candyRush.data.MultiplierVO;
-import com.agnither.candyRush.data.Sound;
+import com.agnither.match3.GameController;
+import com.agnither.match3.data.MultiplierVO;
+import com.agnither.match3.data.Sound;
 import com.agnither.utils.CommonRefs;
 
 import flash.display.Bitmap;
-
 import flash.filesystem.File;
 
 import starling.display.Sprite;

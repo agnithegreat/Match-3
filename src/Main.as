@@ -61,11 +61,11 @@ public class Main extends Sprite {
         addChild(_background);
 
         _starling = new Starling(App, stage, viewPort, null, Context3DRenderMode.AUTO, Context3DProfile.BASELINE_CONSTRAINED);
-        _starling.antiAliasing = 16;
+        _starling.antiAliasing = 0;
         _starling.stage.stageWidth = artSize.width;
         _starling.stage.stageHeight = artSize.height;
-        _starling.showStats = true;
-        _starling.showStatsAt("left", "top", 2/scaleY);
+//        _starling.showStats = true;
+//        _starling.showStatsAt("left", "top", 2/scaleY);
         _starling.simulateMultitouch = false;
         _starling.enableErrorChecking = Capabilities.isDebugger;
 

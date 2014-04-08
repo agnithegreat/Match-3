@@ -5,8 +5,8 @@
  * Time: 22:17
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.view {
-import com.agnither.candyRush.GameController;
+package com.agnither.match3.view {
+import com.agnither.match3.GameController;
 import com.agnither.ui.Screen;
 import com.agnither.utils.CommonRefs;
 

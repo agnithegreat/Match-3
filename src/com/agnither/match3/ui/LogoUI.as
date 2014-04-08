@@ -5,7 +5,7 @@
  * Time: 10:55
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.ui {
+package com.agnither.match3.ui {
 import com.agnither.ui.Screen;
 import com.agnither.utils.CommonRefs;
 
@@ -34,10 +34,10 @@ public class LogoUI extends Screen {
         _logo.x = stage.stageWidth/2;
         _logo.y = 280;
 
-        _btn = new Button(_refs.assets.getTexture("btn.png"), "ИГРАТЬ");
+        _btn = new Button(_refs.assets.getTexture("btn.png"), "PLAY");
         _btn.fontColor = 0xFFFFFF;
-        _btn.fontName = "btn_ru";
-        _btn.fontSize = 24;
+        _btn.fontName = "button_text";
+        _btn.fontSize = -1;
         _btn.addEventListener(Event.TRIGGERED, handleClick);
         addChild(_btn);
         _btn.pivotX = _btn.width/2;

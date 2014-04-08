@@ -5,7 +5,7 @@
  * Time: 21:23
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.data {
+package com.agnither.match3.data {
 import flash.media.AudioPlaybackMode;
 import flash.media.SoundMixer;
 import flash.net.SharedObject;

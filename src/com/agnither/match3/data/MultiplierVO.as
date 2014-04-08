@@ -5,7 +5,7 @@
  * Time: 0:13
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.data {
+package com.agnither.match3.data {
 
 public class MultiplierVO {
 

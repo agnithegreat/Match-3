@@ -5,13 +5,13 @@
  * Time: 20:53
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush {
-import com.agnither.candyRush.model.Cell;
-import com.agnither.candyRush.model.Game;
-import com.agnither.candyRush.ui.LogoUI;
-import com.agnither.candyRush.ui.UI;
-import com.agnither.candyRush.view.FieldView;
-import com.agnither.candyRush.view.MainScreen;
+package com.agnither.match3 {
+import com.agnither.match3.model.Cell;
+import com.agnither.match3.model.Game;
+import com.agnither.match3.ui.LogoUI;
+import com.agnither.match3.ui.UI;
+import com.agnither.match3.view.FieldView;
+import com.agnither.match3.view.MainScreen;
 import com.agnither.utils.CommonRefs;
 
 import starling.display.Stage;

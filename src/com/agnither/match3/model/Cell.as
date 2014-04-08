@@ -5,7 +5,7 @@
  * Time: 21:30
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.model {
+package com.agnither.match3.model {
 import flash.geom.Point;
 
 import starling.events.EventDispatcher;

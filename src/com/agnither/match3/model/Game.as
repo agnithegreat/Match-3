@@ -5,9 +5,9 @@
  * Time: 21:03
  * To change this template use File | Settings | File Templates.
  */
-package com.agnither.candyRush.model {
-import com.agnither.candyRush.data.MultiplierVO;
-import com.agnither.candyRush.data.Sound;
+package com.agnither.match3.model {
+import com.agnither.match3.data.MultiplierVO;
+import com.agnither.match3.data.Sound;
 
 import flash.geom.Point;
 
